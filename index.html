@@ -1,25 +1,61 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Psychic-Game</title>
-		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
-		<header>
-			<div class="container">
-				<h1>The Psychic Game</h1>
-			</div>
-		</header>
-		<div class="container">
-			<p>Guess what letter I'm thinking of</p>
-	    	<p id="wins">Wins: </p>
-	    	<p id="losses">Losses: </p>
-	    	<p id="guessLeft">Guesses Left: </p>
-	    	<p id="userGussedLetter">Your Guesses so far: </p>
-    	</div>
-    	<script type="text/javascript" src="assets/javascript/game.js"></script>
+<!doctype html>
+<html lang="en-us">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Psychic-Game | Elshibani Omar</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-	</body>
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Elshibani Omar</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div id="main-container" class="container">
+      <section class="main-section">
+        <h1>The Psychic Game</h1>
+        <div class="container">
+            <p>Guess what letter I'm thinking of</p>
+            <p id="wins">Wins: </p>
+            <p id="losses">Losses: </p>
+            <p id="guessLeft">Guesses Left: </p>
+            <p id="userGussedLetter">Your Guesses so far: </p>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <div id="connect">
+          <h2>Connect with Me</h2>
+
+          <a href="https://github.com/eomar1122" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/elshibani-omar-71918227/" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+          <a href="https://stackoverflow.com/users/9151399/elshibani-omar" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+        </div>
+      </section>
+      <div class="push"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2018 Elshibani Omar
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
 </html>
